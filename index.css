@@ -4,7 +4,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
-    margin:30px;
+    margin: 30px;
 }
 
 h1 {
@@ -31,34 +31,33 @@ button {
 
 #increment-btn {
     background: lightskyblue;
-    color:black;
+    color: black;
     border-radius: 999px;
-            border: white 2px solid;
+    border: white 2px solid;
 
 }
 
 #save-btn {
     background: darkslateblue;
-        border-radius: 999px;
-        border: white 2px solid;
+    border-radius: 999px;
+    border: white 2px solid;
 
 }
 
-.container{
+.container {
     background-color: hsl(186, 100%, 96%);
-    padding:16px;
+    padding: 16px;
     border-radius: 20px;
-    border:2px black solid;
-    max-width: 100%;
+    border: 2px black solid;
+    width: min(520px, 95%)
 }
 
-#save-el{
-    font-weight:1000;
+#save-el {
+    font-weight: 1000;
 }
 
 #reset-btn {
-    text-decoration:underline;
-    font-weight:10;
-    color:red;
+    text-decoration: underline;
+    font-weight: 10;
+    color: red;
 }
-
